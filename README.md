@@ -1,3 +1,3 @@
-# Amy Lee porfolio site
+# Amy Lee portfolio site
 
 
