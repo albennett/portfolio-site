@@ -52,7 +52,7 @@ p.large {
     text-align: center;
     font-size: 20px;
     padding-top: 20px;
-    margin: 0 75px 0 75px;
+    margin: 0 175px 0 175px;
 }
 
 /*yellow color*/
@@ -74,7 +74,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503
+    color: #079eba
 }
 
 h1,
@@ -115,7 +115,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #fec503;
+    background-color: #079eba;
     border-color: #f6bf01
 }
 
@@ -151,8 +151,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     color: #fff;
-    background-color: teal;
-    border-color: teal;
+    background-color: #079eba;
+    border-color: #079eba;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -167,7 +167,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
+    background-color: #079eba;
     border-color: #f6bf01
 }
 
@@ -207,7 +207,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    color: gray;
+    color: #079eba;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
 }
 
@@ -215,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503
+    color: #079eba
 }
 
 .navbar-default .navbar-collapse {
@@ -253,13 +253,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: gray
+    background-color: #079eba;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503
+    background-color: #079eba
 }
 
 @media (min-width:768px) {
@@ -281,7 +281,7 @@ fieldset[disabled] .btn-xl.active {
         border-radius: 3px
     }
     .navbar-default.navbar-shrink {
-        background-color: teal;
+        background-color: #444444;
         padding: 10px 0
     }
     .navbar-default.navbar-shrink .navbar-brand {
@@ -666,7 +666,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/portfolio/watercolor.png);
     background-position: center;
     background-repeat: no-repeat
 }
