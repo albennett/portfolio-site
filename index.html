@@ -32,7 +32,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header page-scroll color-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -49,16 +49,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Skills</a>
+                        <a class="page-scroll link-shrink" href="#services">Technologies</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll link-shrink" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll link-shrink" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll link-shrink" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +72,8 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-heading">Amy Lee Bennett</div>
-                <div><a href="#services" class="page-scroll btn btn-xl">Developer</a></div>
+                <div class="intro-lead-in">I believe technology has a huge potential in bringing positive change around the world.</div>
+                <div><a href="#services" class="page-scroll btn btn-xl">Software Developer</a></div>
                 <div class="container">
             <div>
                 <ul class="list-inline social-buttons">
@@ -256,7 +257,7 @@
                         <img src="img/portfolio/cpc-marketing-sized.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Marketing</h4>
+                        <h4>Content Generation</h4>
                         <p class="text-muted">Over 100 email posts to 7,000+ subscribers</p>
                     </div>
                 </div>
@@ -272,6 +273,20 @@
                     <div class="portfolio-caption">
                         <h4>Back-End Development</h4>
                         <p class="text-muted">NodeJS Calendar command line tool</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/crop-editnote.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Web Development</h4>
+                        <p class="text-muted">Ionic App</p>
                     </div>
                 </div>
                 <div class="col-sm-8 portfolio-item nwspaper-display">
@@ -395,8 +410,10 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact</h2>
                     <h3 class="section-subheading text-muted">If you’re looking for a developer, writer or someone to give advice on working remotely, <a href="mailto:amyleeannebennett@gmail.com">email me</a>. If you’d rather reminisce about The Office, buy me coffee and just be pals, I’d love to hear from you, too.</h3>
-                    <a class='link-color' href='mailto:amyleeannebennett@gmail.com'><h3> Email: amyleeannebennett@gmail.com</h3></a>
-                    <a class='link-color' href='http://www.github.com/albennett'><h3> Github: github.com/albennett</h3></a>
+                    <h3> Email:</h3>
+                    <a class='link-color' href='mailto:amyleeannebennett@gmail.com'> <h3>amyleeannebennett@gmail.com</h3></a>
+                    <h3> Github:</h3>
+                    <a class='link-color' href='http://www.github.com/albennett'><h3> github.com/albennett</h3></a>
                 </div>
             </div>
             <div class="row">
@@ -453,7 +470,8 @@
                             <img class="img-responsive img-centered" src="img/portfolio/createstory.png" class="img-responsive img-centered" alt="">
                             <img class="img-responsive img-centered" src="img/portfolio/home-view-firsthand.png" class="img-responsive img-centered" alt="">
                             <p>I got the idea of this project from <a href="https://www.facebook.com/humansofnewyork/">Humans of New York</a>. They did a story on the refugee crisis and interviewed refugees in Europe & the Middle East. Their first-hand stories helped me understand the crisis on a deeper level. I decided it would be interesting to create a platform where you can go straight to the source for news. On my platform, users can create news categories and contribute their own related personal stories to those categories. The stories are rateable, which allows the stories to be ordered by highest rating. </p>
-                            <p> I used AngularJS, AngularFire, Firebase, base64, and Bootstrap for this project. View the project <a href="https://first-hand-accounts.firebaseapp.com/#/">here.</p>
+                            <p> I used AngularJS, AngularFire, Firebase, base64, and Bootstrap for this project. View the project <a href="https://first-hand-accounts.firebaseapp.com/#/">here.</a></p>
+                             <p> View the github code <a href="https://github.com/albennett/first-hand-news">here</a></p>
 
                             <ul class="list-inline item-details">
                                 <li>Date:
@@ -491,6 +509,8 @@
                             <img class="img-responsive img-centered" src="img/portfolio/moviehistory.png" class="img-responsive img-centered" alt="">
                             <p>I completed the movie history project with two others, Andri Alexandrou and Mathew Ostrander. We created a web app that allows users to search movies through an API and store and rate movies to their account.
                             <p> We used Jquery, Handlebars, Javascript, Lodash, Firebase, Stars plugin, Q and bootstrap.</p>
+                            <p> View the github code <a href="https://github.com/albennett/movie-history">here</a></p>
+
                             <ul class="list-inline item-details">
 
                                 <li>Date:
@@ -498,7 +518,7 @@
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong>>Web Development</a>
+                                    <strong>Web Development</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -524,7 +544,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Marketing</h2>
+                            <h2>Content Generation</h2>
                             <hr class="">
                             <img class="img-responsive img-centered" src="img/portfolio/cpc-marketing.png" class="img-responsive img-centered" alt="">
                             <p>I created content for <a href="https://coolpeoplecare.org">Cool People Care</a>, a company that shares ideas every day for ways to make the world a better place. I've written over <a href="http://bit.ly/1j7aN9O"> 100 email posts</a> for Cool People Care's email list of 7,000 subscribers. </p>
@@ -566,7 +586,8 @@
                             <hr class="">
                             <img src="img/portfolio/node-cal.jpg" class="img-responsive img-centered" alt="">
                             <p>I created a command line tool to display the month calendar depending on the arguments you give it.
-                            <p> I used NodeJS to create it.</p>
+                            <p> I used NodeJS.</p>
+                            <p> View the github code <a href="https://github.com/albennett/node-cal">here</a></p>
                             <ul class="list-inline item-details">
 
                                 <li>Date:
@@ -614,6 +635,47 @@
                                 </li>
                                 <li>Service:
                                     <strong>>Design</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                             <h2>Notes App</h2>
+                            <hr class="">
+                            <img class="img-responsive img-centered" src="img/portfolio/notes.png" class="img-responsive img-centered" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/editnotes.png" class="img-responsive img-centered" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/navigation.png" class="img-responsive img-centered" alt="">
+                            <p>I completed the notes ionic app with two others, Ben Bledsoe and Stephanie Krause. We created an ionic app that allows users to view, edit, delete and save personal notes. All notes are saved with local storage.</p>
+                            <p> We used Angular, Angular-UI-Router, Ionic, Gulp</p>
+                            <p> View the github code <a href="https://github.com/albennett/BAMS-Notes">here</a></p>
+                            <ul class="list-inline item-details">
+                            <ul class="list-inline item-details">
+
+                                <li>Date:
+                                    <strong>Jan 2016</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>Web Development</a>
                                     </strong>
                                 </li>
                             </ul>
